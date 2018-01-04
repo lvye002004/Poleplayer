@@ -1,0 +1,7 @@
+﻿  ffmpeg_avcodec.cpp
+e:\vswork\ffmpeg_include\libavutil\rational.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+e:\vswork\ffmpeg_poleplayer\ffmpeg_poleplayer\ffmpeg_avcodec.cpp(95): warning C4018: “>”: 有符号/无符号不匹配
+e:\vswork\ffmpeg_poleplayer\ffmpeg_poleplayer\ffmpeg_avcodec.cpp(159): warning C4018: “<”: 有符号/无符号不匹配
+e:\vswork\ffmpeg_poleplayer\ffmpeg_poleplayer\ffmpeg_avcodec.cpp(173): warning C4018: “<”: 有符号/无符号不匹配
+  ffmpeg_poleplayer.vcxproj -> E:\vswork\ffmpeg_poleplayer\x64\Debug\ffmpeg_poleplayer.exe
+  ffmpeg_poleplayer.vcxproj -> E:\vswork\ffmpeg_poleplayer\x64\Debug\ffmpeg_poleplayer.pdb (Full PDB)

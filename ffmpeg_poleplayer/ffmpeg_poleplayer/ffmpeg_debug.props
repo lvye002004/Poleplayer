@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <IncludePath>E:\vswork\ffmpeg_include;$(IncludePath)</IncludePath>
+    <LibraryPath>E:\vswork\ffmpeg_lib;$(LibraryPath)</LibraryPath>
+    <ExecutablePath>E:\vswork\ffmpeg_dll;$(ExecutablePath)</ExecutablePath>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <Link>
+      <AdditionalDependencies>avcodec.lib;avdevice.lib;avfilter.lib;avformat.lib;avutil.lib;postproc.lib;swresample.lib;swscale.lib;libfdk-aac.dll.a;libmp3lame.dll.a;libogg.dll.a;libSDL2.dll.a;libtheora.dll.a;libtheoradec.dll.a;libtheoraenc.dll.a;libvorbis.dll.a;libvorbisenc.dll.a;libvorbisfile.dll.a;libx264.dll.a;libx265.dll.a;%(AdditionalDependencies)</AdditionalDependencies>
+      <SubSystem>NotSet</SubSystem>
+    </Link>
+    <ClCompile>
+      <SDLCheck>false</SDLCheck>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>
